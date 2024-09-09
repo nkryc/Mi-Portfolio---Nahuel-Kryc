@@ -534,3 +534,16 @@ max-width: 1000px;
     color: goldenrod;
     font-size: 2.5rem;
 }
+
+.conacto{
+    background-color: var(--bg-color);
+}
+
+.contacto h2{
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.contacto form{
+    display: flex;
+}

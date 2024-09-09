@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portfolio</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio Nahuel Kryc</title>
+   <link rel="stylesheet" href="css/estilos.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+   
    <header class="header">
-      <a href="#" class="logo">Nahuel</a>
+      <a href="#Inicio" class="logo">Nahuel <span>Kryc</span></a>
 
-      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars" id="iconos-menu"></i>
 
       <nav class="navbar">
          <a href="index.html">Inicio</a>
          <a href="servicios.html">Servicios</a>
-         <a href="skills.html">Skills</a>
+         <a href="skills.html" class="active">Skills</a>
          <a href="sobremi.html">Sobre Mi</a>
+         <a href="curriculum.html">Currículum</a>
          <a href="contacto.html">Contacto</a>
-
       </nav>
    </header>
-     <h1>Mi portfolio</h1>
-     <p>Me llamo Nahuel Kryc y tengo 24 años, actualmente trabajo de manera independite como Editor de Videos
-        para redes sociales</p>
 
-        <h2>Logros</h2>
-        <p>Complete el 75% de la carrera Diseño Multimedial en DaVinci</p>
-        <p>Tengo experiencia como Fotografo Freelancer<p>
-        <P>Trabajo de manera independiente y logre trabajar con diversos clientes del exterior</p> 
+   <section class="contacto" id="contacto">
+      <h2 class="heading">Contacto</h2>
 
-        <h2>¿Que Ofrezco?</h2>
-        <p>Soy un persona responsable con la entrega de los proyectos, siempre tengo buena comunicación con
-        mis empleadores, soy creativo y siempre tengo ganas de aprender algo nuevo para estar actualizado
-        en cuanto a mis conocimientos</p>
-    
-     <img src="img/foto 4x4.png" alt="Foto personal en primer plano">
+      <form action="">
+         <div class="input-group">
+            <div class="input-box">
+               <input type="text" placeholder="Nombre completo">
+               <input type="email" placeholder="@Email">
+            </div>
 
-     <ul>
-        <li> <a href="sobremi.html"> Sobre Mi</li>
-        <li> <a href="portfolio.html"> Portfolio</li>
-        <li> <a href="curriculum.html"> Currículum</li>
-        <li> <a href="servicios.html"> Servicios</li>
-        <li> <a href="contacto.html"> Contacto</li>
-        <li></li>
-        <li></li>
-     </ul>
+            <div class="input-box">
+               <input type="number" placeholder="Numero de telefono">
+               <input type="text" placeholder="Asunto">
+            </div>
+         </div>
+
+         <div class="input-group-2">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="boton">
+         </div>
+      </form>
+   </section>
+
+
+   <footer class="footer">
+      
+      <ul class="lista">
+         <li><a href="servicios.html">Servicios</a></li>
+         <li><a href="sobremi.html">Sobre Mi</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <p class="copyright">
+         @ Nahuel Kryc / Todos los Derechos Reservados 2024
+      </p>
+   </footer>
 
 </body>
 </html>
