@@ -453,7 +453,13 @@ max-width: 1000px;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 1re,;
+    margin-top: 1rem;
+}
+
+.skills .container .bar .iconos{
+    max-width: 70%;
+    height: auto;
+    display: block;
 }
 
 .skills .container .bar .info span{
