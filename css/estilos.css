@@ -205,43 +205,36 @@ max-width: 1000px;
     color: black;
 }
 
-.footer{
-    position: relative;
-    bottom: 0;
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     width: 100%;
     padding: 5px 0;
-    background-color:  rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; 
 }
 
-.footer ul{
-    margin-top: 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 0;
-    text-align: center;
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    flex: 1;
+    max-width: calc(100% - 60px); 
 }
 
-.footer ul li a{
-    color: var(--text-color);
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease;
-}
-
-.footer ul li a:hover{
-    border-bottom: 3px solid var(--main-color);
-}
-
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-}
-
-.footer .copyright{
+.footer .copyright {
     margin-top: 5px;
-    text-align: center;
     font-size: 16px;
     color: var(--text-color);
+    margin-right: 20px;
+}
+
+.logo-uade {
+    height: auto;
+    width: 150px;
+    margin-left: 20px;
 }
 
 .heading{
