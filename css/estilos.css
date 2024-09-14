@@ -568,3 +568,50 @@ max-width: 1000px;
 .contacto form .boton{
     margin-top: 2rem;
 }
+
+.biografia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 12%;
+    flex-wrap: wrap; /* Para que sea responsive */
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.contenido-bio {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-bio h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.contenido-bio p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.img-bio {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-bio img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+}
