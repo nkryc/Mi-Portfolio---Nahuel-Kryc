@@ -91,7 +91,8 @@ section{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    text-align: left;justify-content: center;
+    text-align: left;
+    justify-content: center;
     margin-top: 3rem;
 }
 
