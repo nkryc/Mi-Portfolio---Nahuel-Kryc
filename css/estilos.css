@@ -15,6 +15,39 @@
     --main-color: #ff7733;
 }
 
+.modoclaro {
+    --bg-color: #ffffff;
+    --second-bg-color: #131313;
+    --text-color: #000000;
+    --main-color: #ff7733;
+}
+
+#cambio-tema{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#cambio-tema svg{
+    fill: var(--main-color);
+}
+
+#cambio-tema svg:last-child{
+    display: none;
+}
+
+#cambio-tema svg:first-child{
+    display: none;
+}
+
 html{
     font-size: 60%;
 }
