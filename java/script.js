@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //Form validación
-
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
   
