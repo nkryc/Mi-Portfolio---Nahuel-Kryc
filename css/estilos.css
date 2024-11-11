@@ -393,7 +393,7 @@ max-width: 1000px;
 
 .servicios h2{
     margin-bottom: 5rem;
-    color: white;
+    color: var(--text-color);
 }
 
 .servicios-container{
